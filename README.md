@@ -23,13 +23,14 @@ app. It works offline after the first visit (service-worker cached).
 
 ## Seeded location
 
-On first launch the app seeds this farm. It is auto-favourited and can be
+On first launch the app seeds these farms. They are auto-favourited and can be
 renamed, edited, or deleted freely afterwards. Add as many more farms as you
 like from inside the app.
 
 | English | 中文 | Coordinates |
 |---|---|---|
 | Machap Baru | 马接峇鲁 | 2.38000, 102.35056 |
+| Durian Tunggal Dam | 榴槤洞葛水坝 | 2.35370, 102.31610 |
 
 The app also seeds a default user display name (**Eric Goh**), which stays
 editable via **Edit Name** in the app.

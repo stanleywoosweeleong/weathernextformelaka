@@ -1897,7 +1897,7 @@
         // unless SEED_VERSION is bumped in a future build.
         // ============================================================
         (function seedCompanyLocations() {
-            var SEED_VERSION = '2';
+            var SEED_VERSION = '3';
             var SEED_FLAG_KEY = 'weathernextformelaka__wnext_company_seed_version';
             var CUSTOM_KEY = 'weathernextformelaka__wnext_v41_custom_store';
             var FAV_KEY = 'weathernextformelaka__wnext_v41_favs_store';
@@ -1916,7 +1916,7 @@
                     localStorage.setItem(NAME_KEY, "Eric Goh");
                     localStorage.setItem(NAME_ASCII_KEY, "Eric Goh");
                 }
-                var seedLocs = [{"id": "c_ml-machap-baru", "en": "Machap Baru", "zh": "马接峇鲁", "lat": 2.38000, "lng": 102.35056, "t": 0, "p": 0, "em": false}];
+                var seedLocs = [{"id": "c_ml-machap-baru", "en": "Machap Baru", "zh": "马接峇鲁", "lat": 2.38000, "lng": 102.35056, "t": 0, "p": 0, "em": false}, {"id": "c_ml-durian-tunggal-dam", "en": "Durian Tunggal Dam", "zh": "榴槤洞葛水坝", "lat": 2.35370, "lng": 102.31610, "t": 0, "p": 0, "em": false}];
                 // Merge into whatever is already there (e.g. a deep-link
                 // location the user received before first cold start).
                 var existing = [];
@@ -1971,7 +1971,7 @@
                     favs = rawF ? (JSON.parse(rawF) || []) : [];
                     if (!Array.isArray(favs)) favs = [];
                 } catch (e) { favs = []; }
-                var seedIds = ["c_ml-machap-baru"];
+                var seedIds = ["c_ml-machap-baru", "c_ml-durian-tunggal-dam"];
                 seedIds.forEach(function (id) {
                     if (favs.indexOf(id) === -1) favs.push(id);
                 });
