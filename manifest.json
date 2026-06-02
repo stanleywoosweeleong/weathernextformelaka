@@ -2,6 +2,7 @@
   "name": "Melaka",
   "short_name": "Melaka 天气",
   "description": "Melaka — farm weather forecast / 个人化农友天气预报",
+  "id": "/weathernextformelaka/",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
