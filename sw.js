@@ -43,7 +43,7 @@
 // / Dense fog in the morning / Kabus tebal waktu pagi). Identity (A'Famosa
 // boot art, weathernextformelaka) unchanged.
 
-const CACHE_VERSION = 'wnext-weathernextformelaka-202606090300';
+const CACHE_VERSION = 'wnext-weathernextformelaka-202606091100';
 const SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 const WEATHER_CACHE = `${CACHE_VERSION}-weather`;
